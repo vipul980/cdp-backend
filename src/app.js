@@ -9,7 +9,7 @@ const app = express();
 
 app.use(express.json());
 
-
+//test
 app.use('/events', eventsRouter);
 app.use('/customers', customerRouter);
 
